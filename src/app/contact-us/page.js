@@ -23,8 +23,51 @@ export default function ContactUs() {
   });
 
   const [errors, setErrors] = useState({});
+  const [turnstileToken, setTurnstileToken] = useState("");
+  const turnstileWidgetId = useRef(null);
 
   useEffect(() => {
+    // Load Cloudflare Turnstile script
+    const script = document.createElement('script');
+    script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js';
+    script.async = true;
+    script.defer = true;
+    
+    const initializeTurnstile = () => {
+      const widget = document.getElementById('turnstile-widget');
+      if (window.turnstile && widget) {
+        console.log('Initializing Turnstile with key:', process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY);
+        turnstileWidgetId.current = window.turnstile.render('#turnstile-widget', {
+          sitekey: process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY || '1x00000000000000000000AA',
+          callback: (token) => {
+            setTurnstileToken(token);
+            setErrors(prev => ({ ...prev, turnstile: '' }));
+          },
+          'error-callback': () => {
+            setTurnstileToken('');
+            setErrors(prev => ({ ...prev, turnstile: 'Verification failed. Please try again.' }));
+          },
+          'expired-callback': () => {
+            setTurnstileToken('');
+            setErrors(prev => ({ ...prev, turnstile: 'Verification expired. Please try again.' }));
+          }
+        });
+      } else {
+        console.log('Turnstile init failed:', {
+          turnstile: !!window.turnstile,
+          widget: !!widget,
+          sitekey: !!process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY
+        });
+      }
+    };
+
+    script.onload = () => {
+      // Add delay to ensure DOM is ready
+      setTimeout(initializeTurnstile, 200);
+    };
+
+    document.head.appendChild(script);
+
     if (phoneInputRef.current) {
       itiRef.current = intlTelInput(phoneInputRef.current, {
         initialCountry: "ae",
@@ -34,23 +77,15 @@ export default function ContactUs() {
 
       phoneInputRef.current.addEventListener("blur", () => {
         if (itiRef.current && phoneInputRef.current.value.trim()) {
-          if (!itiRef.current.isValidNumber()) {
-            const errorMap = {
-              0: "Invalid number",
-              1: "Invalid country code",
-              2: "Too short",
-              3: "Too long",
-              4: "Invalid number",
-            };
-            setErrors((prev) => ({
-              ...prev,
-              phone:
-                errorMap[itiRef.current.getValidationError()] ||
-                "Invalid phone number",
-            }));
-          } else {
-            setErrors((prev) => ({ ...prev, phone: "" }));
-          }
+          // Clear phone error when user starts typing
+          setErrors((prev) => ({ ...prev, phone: "" }));
+        }
+      });
+
+      phoneInputRef.current.addEventListener("input", () => {
+        if (itiRef.current && phoneInputRef.current.value.trim()) {
+          // Clear phone error on input
+          setErrors((prev) => ({ ...prev, phone: "" }));
         }
       });
     }
@@ -67,12 +102,30 @@ export default function ContactUs() {
       tempErrors.email = "Invalid email address.";
     }
 
-    if (!formData.phone.trim()) {
+    // Phone validation - check if phone input has value or if intl-tel-input has valid number
+    if (itiRef.current) {
+      const phoneValue = phoneInputRef.current?.value?.trim();
+      if (!phoneValue) {
+        tempErrors.phone = "Phone is required.";
+      } else if (!itiRef.current.isValidNumber()) {
+        // Only show validation error if there's a value but it's invalid
+        const errorCode = itiRef.current.getValidationError();
+        const errorMap = {
+          0: "Invalid number",
+          1: "Invalid country code", 
+          2: "Too short",
+          3: "Too long",
+          4: "Invalid number",
+        };
+        tempErrors.phone = errorMap[errorCode] || "Invalid phone number";
+      }
+    } else if (!formData.phone.trim()) {
       tempErrors.phone = "Phone is required.";
     }
 
     if (!formData.subject.trim()) tempErrors.subject = "Subject is required.";
     if (!formData.message.trim()) tempErrors.message = "Message is required.";
+    if (!turnstileToken) tempErrors.turnstile = "Please complete the security verification.";
 
     setErrors(tempErrors);
     return Object.keys(tempErrors).length === 0;
@@ -109,6 +162,7 @@ export default function ContactUs() {
       Object.keys(formData).forEach((key) => {
         data.append(key, formData[key]);
       });
+      data.append('cf-turnstile-response', turnstileToken);
 
       const res = await fetch(
         "http://localhost/appello-portal/public/store-lead",
@@ -127,14 +181,18 @@ export default function ContactUs() {
       if (res.ok) {
         toast.success("Form Submitted Successfully");
         setFormData({
-          website: "Bathroom Site",
+          website: "Gypsum Site",
           name: "",
           email: "",
           phone: "",
           subject: "",
           message: "",
         });
+        setTurnstileToken("");
         if (phoneInputRef.current) phoneInputRef.current.value = "";
+        if (window.turnstile && turnstileWidgetId.current) {
+          window.turnstile.reset(turnstileWidgetId.current);
+        }
       } else {
         toast.error(result.message || "Form submission failed.");
       }
@@ -249,6 +307,13 @@ export default function ContactUs() {
                     ></textarea>
                     {errors.message && (
                       <small className="text-danger">{errors.message}</small>
+                    )}
+                  </div>
+
+                  <div className="col-12 mb-3">
+                    <div id="turnstile-widget"></div>
+                    {errors.turnstile && (
+                      <small className="text-danger d-block mt-2">{errors.turnstile}</small>
                     )}
                   </div>
 

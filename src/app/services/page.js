@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Services() {
   return (
     <>
-    
+
 <section className="bread_title py-5">
 
 	  <div className="container my-5">
@@ -53,13 +53,13 @@ export default function Services() {
 						</div>
 
 						{/* <h6>01</h6> */}
-						<div className="icon_label">Backsplash Tiling</div>
+						<div className="icon_label">Interior Wall Gypsum</div>
 
 					</div>
 
 					<hr className="my-4"></hr>
 
-					<p>In kitchen design, few elements balance function and beauty as perfectly as a backsplash</p>
+					<p>Transform indoor spaces with smooth, high-quality finishes tailored to your lifestyle and space.</p>
 
 					{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#403226"}}><img  src="/images/arrow.png"/></span> */}
 
@@ -80,13 +80,13 @@ export default function Services() {
 						</div>
 
 						{/* <h6>01</h6> */}
-						<div className="icon_label">Kitchen Countertops</div>
+						<div className="icon_label">Exterior Building Gypsum</div>
 
 					</div>
 
 					<hr className="my-4"></hr>
 
-					<p>Kitchen countertops are not just surfaces, they are the foundation of your kitchen</p>
+					<p>Protect and refresh your property’s exterior with durable, weather-resistant coatings</p>
 
 					{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#403226"}}><img  src="/images/arrow.png"/></span> */}
 
@@ -102,18 +102,18 @@ export default function Services() {
 
 						<div className="service_img">
 
-                    <img  src="/images/custom.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>					
+                    <img  src="/images/custom.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>
 
 						</div>
 
 						{/* <h6>01</h6> */}
-						<div className="icon_label">Custom Kitchen Design & Installation</div>
+						<div className="icon_label">Decorative Gypsum Finishes</div>
 
 					</div>
 
 					<hr className="my-4"></hr>
 
-					<p>A kitchen is more than just a room, it's the heart of the home</p>
+					<p>Add elegance and texture with custom finishes like Venetian plaster, concrete effect, or metallics.</p>
 
 					{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#403226"}}><img  src="/images/arrow.png"/></span> */}
 
@@ -129,18 +129,18 @@ export default function Services() {
 
 						<div className="service_img">
 
-                     <img  src="/images/smart.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>						
+                     <img  src="/images/smart.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>
 
 						</div>
 
 						{/* <h6>01</h6> */}
-						<div className="icon_label">Smart Kitchen Solutions</div>
+						<div className="icon_label">Waterproof Gypsum Application</div>
 
 					</div>
 
 					<hr className="my-4"></hr>
 
-					<p>The kitchen is no longer just a place to cook, it’s a dynamic</p>
+					<p>Shield walls from moisture and damage with breathable, long-lasting waterproof coatings.</p>
 
 					{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#403226"}}><img  src="/images/arrow.png"style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}</span> */}
 
@@ -156,18 +156,18 @@ export default function Services() {
 
 						<div className="service_img">
 
-                     <img  src="images/appliances.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>						
+                     <img  src="images/appliances.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>
 
 						</div>
 
 						{/* <h6>01</h6> */}
-						<div className="icon_label">Kitchen Appliance Installation</div>
+						<div className="icon_label">Anti-Fungal Coating</div>
 
 					</div>
 
 					<hr className="my-4"></hr>
 
-					<p>Modern kitchens rely on appliances to bring both convenience and style</p>
+					<p>Prevent mold and mildew with specialized, hygienic coatings for damp-prone areas.</p>
 
 					{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#403226"}}><img  src="images/arrow.png"/></span> */}
 
@@ -183,18 +183,18 @@ export default function Services() {
 
 						<div className="service_Image">
 
-					 <img  src="images/Cabinets.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>						
+					 <img  src="images/Cabinets.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>
 
 						</div>
 
 						{/* <h6>01</h6> */}
-						<div className="icon_label">Cabinet Refacing & Painting</div>
+						<div className="icon_label">Spray Gypsum Services</div>
 
 					</div>
 
 					<hr className="my-4"></hr>
 
-					<p>Sometimes, your kitchen doesn’t need a complete overhaul, it just needs a refresh</p>
+					<p>Achieve flawless, uniform finishes quickly with advanced spray-gypsum technology.</p>
 
 					{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#403226"}}><img  src="images/arrow.png"/></span> */}
 
@@ -208,9 +208,9 @@ export default function Services() {
 
 					<div className="key_box2" style={{textAlign: "left"}}>
 
-						<div className="service_Image"> 
+						<div className="service_Image">
 
-                     <img  src="images/light.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>	
+                     <img  src="images/light.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>
 
 						</div>
 
@@ -237,7 +237,7 @@ export default function Services() {
 
 						<div className="service_Image">
 
-                     <img  src="images/kitchenplumbing.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>						
+                     <img  src="images/kitchenplumbing.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>
 
 						</div>
 
@@ -264,7 +264,7 @@ export default function Services() {
 
 						<div className="service_Image">
 
-                     <img  src="images/vent.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>						
+                     <img  src="images/vent.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>
 
 						</div>
 
@@ -291,7 +291,7 @@ export default function Services() {
 
 						<div className="service_Image">
 
-                      <img  src="images/Modular Kitchen Units.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>						
+                      <img  src="images/Modular Kitchen Units.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>
 
 						</div>
 

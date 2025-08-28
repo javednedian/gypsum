@@ -59,9 +59,9 @@ export default function backsplashTilingWhereStyleMeetsEverydayPracticality() {
 
 			<div className="col-md-12 mt-4 text-center">
 
-				<h5 className="main_heading text-white" style={{fontSize: "55px"}}>Backsplash Tiling Where Style Meets Everyday Practicality</h5>
+				<h5 className="main_heading text-white" style={{fontSize: "55px"}}>Gypsum Ceiling Works</h5>
 
-				<p className="mt-4 text-white">Home/<span>Backsplash Tiling Where Style Meets Everyday Practicality</span></p>
+				<p className="mt-4 text-white">Home/<span>Gypsum Ceiling Works</span></p>
 
 			</div>
 
@@ -79,18 +79,21 @@ export default function backsplashTilingWhereStyleMeetsEverydayPracticality() {
                 <div className="col-md-6 my-auto">
 
 
-				<h2 className="main_heading">Backsplash Tiling Where Style Meets Everyday Practicality</h2>
-        <p className="my-4">In kitchen design, few elements balance function and beauty as perfectly as a backsplash. A well-chosen backsplash doesn’t just protect your walls from splashes, spills, heat, and grime, it also acts as a powerful design statement. At [Company], we specialize in backsplash tiling solutions that elevate your space while making it more practical and hygienic.</p>
-        <p className="my-4">Whether you want a clean, classic subway tile backsplash, a bold mosaic with decorative backsplash tiles, or a sleek modern kitchen backsplash, we help you choose the perfect style. Our wide range of materials includes ceramic backsplash tiles, porcelain backsplash tiles, marble backsplash tiles, and even custom options. We also provide professional glass backsplash installation for homeowners who want a contemporary, light-reflecting finish.</p>
-				<h4 className="sub_heading">1.Precision Installation for a Flawless Finish</h4>
+				<h2 className="main_heading">Gypsum Ceiling Works</h2>
+				<h4 className="sub_heading">1.transform Your Interiors with Professional Gypsum Ceiling Works</h4>
 
-				<p className="my-4">A backsplash may seem like a small detail, but professional kitchen backsplash installation requires precision to ensure long-lasting beauty. At [Company], our expert tiling specialists measure, cut, and place every tile with care, achieving clean grout lines, perfect alignment, and balanced patterns whether you choose a simple linear layout or a herringbone design.</p>
+        <p className="my-4">Ceilings play a crucial role in defining the mood and personality of any space, and that’s where gypsum ceiling works truly shine. Whether you’re designing a modern home, an elegant office, or a luxurious villa, gypsum provides a versatile and stylish solution that blends functionality with beauty. From adding depth and dimension to concealing wiring and ductwork, gypsum ceiling installation offers a clean and flawless finish that elevates interiors instantly.</p>
+        <p className="my-4">By working with an experienced gypsum false ceiling contractor, clients can explore endless design options and receive expert advice on what best suits their space. With the right installation, gypsum ceilings not only enhance visual appeal but also improve acoustics, insulation, and lighting integration, making them both practical and aesthetically impactful.</p>
+				<h4 className="sub_heading">1.Modern and Classic Gypsum Ceiling Designs Tailored to Your Space</h4>
+
+				<p className="my-4">One of the biggest advantages of gypsum ceilings is their adaptability to different styles. For contemporary settings, modern gypsum ceiling designs create sleek lines, geometric patterns, and innovative lighting layouts that bring a fresh, stylish feel to interiors. On the other hand, those who prefer timeless elegance can opt for classic gypsum ceiling designs, featuring soft curves, layered detailing, or artistic moldings that never go out of style.</p>
+            <p className="my-4">Whether you want understated sophistication or a bold statement piece, suspended and false ceiling options provide endless customization. A trusted gypsum false ceiling contractor will carefully craft designs that align with your vision, ensuring every detail complements the overall theme of your home or commercial property.</p>
 
 			</div>
 	    <div className="col-md-6 my-auto">
 
 				<img src="/images/kitchenBacksplash.jpg" className="w-100" style={{borderRadius: "30px" ,height: "450px"}}/>
-                
+
 			</div>
     </div>
 
