@@ -62,11 +62,11 @@ export default function RootLayout({ children }) {
                   </a>
 
                   <ul className="dropdown-menu custom-dropdown">
-                    <li><Link className="dropdown-item" href="/service/backsplash-tiling-here-style-meets-everyday-practicality">Backsplash Tiling</Link></li>
-                    <li><Link className="dropdown-item" href="/service/kitchen-countertops-the-centerpiece-of-every-kitchen">Kitchen Countertops</Link></li>
-                    <li><Link className="dropdown-item" href="/service/custom-kitchen-design-and-installation">Custom Kitchen Design & Installation</Link></li>
-                    <li><Link className="dropdown-item" href="/service/smart-kitchen-solutions">Smart Kitchen Solutions</Link></li>
-                    <li><Link className="dropdown-item" href="/service/kitchen-appliance-installation-seamless-safe-and-professional">Kitchen Appliance Installation</Link></li>
+                    <li><Link className="dropdown-item" href="/service/gypsum-ceiling-works">Gypsum Ceiling Works</Link></li>
+                    <li><Link className="dropdown-item" href="/service/partition-and-drywall-installation">Partition & Drywall Installation</Link></li>
+                    <li><Link className="dropdown-item" href="/service/gypsum-wall-cladding-and-panelling">Gypsum Wall Cladding & Panelling</Link></li>
+                    <li><Link className="dropdown-item" href="/service/cornices-mouldings-and-decorative-works">Cornices, Mouldings & Decorative Works</Link></li>
+                    <li><Link className="dropdown-item" href="/service/gypsum-painting-and-finishing">Gypsum Painting & Finishing</Link></li>
                     <li><Link className="dropdown-item" href="/service/cabinet-refacing-and-painting-a-fresh-look-without-the-full-renovation">Cabinet Refacing & Painting</Link></li>
                     <li><Link className="dropdown-item" href="/service/lighting-and-electrical-setup-illuminate-your-kitchen-elevate-your-experience">Lighting & Electrical Setup</Link></li>
                     <li><Link className="dropdown-item" href="/service/kitchen-plumbing-and-drainage-the-backbone-of-a-functional-kitchen">Kitchen Plumbing & Drainage</Link></li>
