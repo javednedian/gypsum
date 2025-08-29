@@ -291,13 +291,13 @@ export default function Home() {
 												</div>
 
 												{/* <h6>01</h6> */}
-												<div className="icon_label">Interior Wall Gypsum</div>
+												<div className="icon_label">Gypsum Ceiling Works</div>
 
 											</div>
 
 											<hr className="my-4"></hr>
 
-											<p>Transform indoor spaces with smooth, high-quality finishes tailored to your lifestyle and space.</p>
+											<p>Expertly crafted gypsum ceilings that enhance both style and function in any space.</p>
 
 											{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#29456d"}}><img src="/images/arrow.png"/></span> */}
 										</div>
@@ -324,13 +324,13 @@ export default function Home() {
 												</div>
 
 												{/* <h6>02</h6> */}
-												<div className="icon_label">Exterior Building Gypsum</div>
+												<div className="icon_label">Partition & Drywall Installation</div>
 
 											</div>
 
 											<hr className="my-4"></hr>
 
-											<p>Protect and refresh your property’s exterior with durable, weather-resistant coatings.</p>
+											<p>Customized drywall and partition solutions for efficient and flexible space planning.</p>
 
 											{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#29456d"}}><img src="/images/arrow.png"/></span> */}
 
@@ -355,13 +355,13 @@ export default function Home() {
 												</div>
 
 												{/* <h6>03</h6> */}
-												<div className="icon_label">Decorative Gypsum Finishes</div>
+												<div className="icon_label">Gypsum Wall Cladding & Panelling</div>
 
 											</div>
 
 											<hr className="my-4"></hr>
 
-											<p>Add elegance and texture with custom finishes like Venetian plaster, concrete effect, or metallics</p>
+											<p>Elegant wall treatments that add texture, depth, and character to your interiors.</p>
 
 											{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#29456d"}}><img src="/images/arrow.png"/></span> */}
 
@@ -387,13 +387,13 @@ export default function Home() {
 												</div>
 
 												{/* <h6>04</h6> */}
-												<div className="icon_label">Waterproof Gypsum Application</div>
+												<div className="icon_label">Cornices, Mouldings & Decorative Works</div>
 
 											</div>
 
 											<hr className="my-4"></hr>
 
-											<p>Shield walls from moisture and damage with breathable, long-lasting waterproof coatings.</p>
+											<p>Detailed decorative elements that bring sophistication and charm to every room.</p>
 
 											{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#29456d"}}><img src="/images/arrow.png"/></span> */}
 
@@ -419,13 +419,13 @@ export default function Home() {
 												</div>
 
 												{/* <h6>05</h6> */}
-												<div className="icon_label">Anti-Fungal Coating</div>
+												<div className="icon_label">Gypsum Painting & Finishing</div>
 
 											</div>
 
 											<hr className="my-4"></hr>
 
-											<p>Prevent mold and mildew with specialized, hygienic coatings for damp-prone areas.</p>
+											<p>Smooth, flawless finishes with professional painting for a polished final touch.</p>
 
 											{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#29456d"}}><img src="/images/arrow.png"/></span> */}
 
@@ -451,13 +451,13 @@ export default function Home() {
 												</div>
 
 												{/* <h6>06</h6> */}
-												<div className="icon_label">Spray Gypsum Services</div>
+												<div className="icon_label">Repairs & Renovation</div>
 
 											</div>
 
 											<hr className="my-4"></hr>
 
-											<p>Achieve flawless, uniform finishes quickly with advanced spray-gypsum technology.</p>
+											<p>Reliable repair and renovation services to restore and refresh your gypsum interiors.</p>
 
 											{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#29456d"}}><img src="/images/arrow.png"/></span> */}
 
@@ -483,13 +483,13 @@ export default function Home() {
 												</div>
 
 												{/* <h6>07</h6> */}
-												<div className="icon_label">Regypsum Services</div>
+												<div className="icon_label">Turnkey Interior Gypsum Solutions</div>
 
 											</div>
 
 											<hr className="my-4"></hr>
 
-											<p>Revive faded or outdated surfaces with precision regypsum that refreshes your space.</p>
+											<p>End-to-end gypsum interior solutions, delivered with precision and quality craftsmanship.</p>
 
 											{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#29456d"}}><img src="/images/arrow.png"/></span> */}
 
@@ -500,100 +500,7 @@ export default function Home() {
 									</div>
 								</SwiperSlide>
 
-								<SwiperSlide>
-									<div className="item mb-4">
 
-										<Link href="/service/kitchen-plumbing-and-drainage-the-backbone-of-a-functional-kitchen">
-
-										<div className="service_box pt-3 pb-4">
-
-											<div className="key_box2" style={{textAlign: "left"}}>
-
-												<div className="service_img">
-
-											<img src="/images/kitchenplumbing.jpg"  style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}} />
-												</div>
-
-												{/* <h6>08</h6> */}
-												<div className="icon_label">Wall Patching & Preparation</div>
-
-											</div>
-
-											<hr className="my-4"></hr>
-
-											<p>Ensure a smooth and lasting finish with expert wall repair, patching, and surface priming.</p>
-
-											{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#29456d"}}><img src="/images/arrow.png"/></span> */}
-
-										</div>
-
-										</Link>
-
-									</div>
-								</SwiperSlide>
-
-								<SwiperSlide>
-									<div className="item mb-4">
-
-										<Link href="/service/ventilation-and-hood-installation-breathe-easy-with-a-cleaner-healthier-kitchen">
-
-										<div className="service_box pt-3 pb-4">
-
-											<div className="key_box2" style={{textAlign: "left"}}>
-
-												<div className="service_img">
-
-											<img src="/images/vent.jpg"  style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>
-												</div>
-
-												{/* <h6>09</h6> */}
-												<div className="icon_label">Epoxy Floor Coatings</div>
-
-											</div>
-
-											<hr className="my-4"></hr>
-
-											<p>Strengthen and beautify floors with seamless, heavy-duty epoxy systems for all environments.</p>
-
-											{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#29456d"}}><img src="/images/arrow.png"/></span> */}
-
-										</div>
-
-										</Link>
-
-									</div>
-								</SwiperSlide>
-
-								<SwiperSlide>
-									<div className="item mb-4">
-
-										<Link href="/service/modular-kitchen-units-flexible-functional-and-designed-for-modern-living">
-
-										<div className="service_box pt-3 pb-4">
-
-											<div className="key_box2" style={{textAlign: "left"}}>
-
-												<div className="service_img">
-
-											<img src="/images/Modular Kitchen Units.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}} />
-												</div>
-
-												{/* <h6>10</h6> */}
-												<div className="icon_label">Stain Removal & Restoration</div>
-
-											</div>
-
-											<hr className="my-4"></hr>
-
-											<p>Eliminate stains and restore surfaces with expert treatment for a fresh, like-new appearance.</p>
-
-											{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#29456d"}}><img src="/images/arrow.png"/></span> */}
-
-										</div>
-
-										</Link>
-									</div>
-								</SwiperSlide>
 
 							</Swiper>
 

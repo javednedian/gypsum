@@ -53,13 +53,13 @@ export default function Services() {
 						</div>
 
 						{/* <h6>01</h6> */}
-						<div className="icon_label">Interior Wall Gypsum</div>
+						<div className="icon_label">Gypsum Ceiling Works</div>
 
 					</div>
 
 					<hr className="my-4"></hr>
 
-					<p>Transform indoor spaces with smooth, high-quality finishes tailored to your lifestyle and space.</p>
+					<p>Expertly crafted gypsum ceilings that enhance both style and function in any space.</p>
 
 					{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#403226"}}><img  src="/images/arrow.png"/></span> */}
 
@@ -80,13 +80,13 @@ export default function Services() {
 						</div>
 
 						{/* <h6>01</h6> */}
-						<div className="icon_label">Exterior Building Gypsum</div>
+						<div className="icon_label">Partition & Drywall Installation</div>
 
 					</div>
 
 					<hr className="my-4"></hr>
 
-					<p>Protect and refresh your property’s exterior with durable, weather-resistant coatings</p>
+					<p>Customized drywall and partition solutions for efficient and flexible space planning.</p>
 
 					{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#403226"}}><img  src="/images/arrow.png"/></span> */}
 
@@ -107,13 +107,13 @@ export default function Services() {
 						</div>
 
 						{/* <h6>01</h6> */}
-						<div className="icon_label">Decorative Gypsum Finishes</div>
+						<div className="icon_label">Gypsum Wall Cladding & Panelling</div>
 
 					</div>
 
 					<hr className="my-4"></hr>
 
-					<p>Add elegance and texture with custom finishes like Venetian plaster, concrete effect, or metallics.</p>
+					<p>Elegant wall treatments that add texture, depth, and character to your interiors.</p>
 
 					{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#403226"}}><img  src="/images/arrow.png"/></span> */}
 
@@ -134,13 +134,13 @@ export default function Services() {
 						</div>
 
 						{/* <h6>01</h6> */}
-						<div className="icon_label">Waterproof Gypsum Application</div>
+						<div className="icon_label">Cornices, Mouldings & Decorative Works</div>
 
 					</div>
 
 					<hr className="my-4"></hr>
 
-					<p>Shield walls from moisture and damage with breathable, long-lasting waterproof coatings.</p>
+					<p>Detailed decorative elements that bring sophistication and charm to every room.</p>
 
 					{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#403226"}}><img  src="/images/arrow.png"style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}</span> */}
 
@@ -161,13 +161,13 @@ export default function Services() {
 						</div>
 
 						{/* <h6>01</h6> */}
-						<div className="icon_label">Anti-Fungal Coating</div>
+						<div className="icon_label">Gypsum Painting & Finishing</div>
 
 					</div>
 
 					<hr className="my-4"></hr>
 
-					<p>Prevent mold and mildew with specialized, hygienic coatings for damp-prone areas.</p>
+					<p>Smooth, flawless finishes with professional painting for a polished final touch.</p>
 
 					{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#403226"}}><img  src="images/arrow.png"/></span> */}
 
@@ -188,13 +188,13 @@ export default function Services() {
 						</div>
 
 						{/* <h6>01</h6> */}
-						<div className="icon_label">Spray Gypsum Services</div>
+						<div className="icon_label">Repairs & Renovation</div>
 
 					</div>
 
 					<hr className="my-4"></hr>
 
-					<p>Achieve flawless, uniform finishes quickly with advanced spray-gypsum technology.</p>
+					<p>Reliable repair and renovation services to restore and refresh your gypsum interiors.</p>
 
 					{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#403226"}}><img  src="images/arrow.png"/></span> */}
 
@@ -215,13 +215,13 @@ export default function Services() {
 						</div>
 
 						{/* <h6>01</h6> */}
-						<div className="icon_label">Lighting & Electrical Setup</div>
+						<div className="icon_label">Turnkey Interior Gypsum Solutions </div>
 
 					</div>
 
 					<hr className="my-4"></hr>
 
-					<p>Lighting isn’t just about visibility, it’s about atmosphere, functionality, and design</p>
+					<p>End-to-end gypsum interior solutions, delivered with precision and quality craftsmanship.</p>
 
 					{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#403226"}}><img  src="images/arrow.png"/></span> */}
 
@@ -229,85 +229,7 @@ export default function Services() {
 
 			</div>
 
-			<div className="col-md-4 mb-4">
 
-				<div className="service_box pt-3 pb-4">
-
-					<div className="key_box2" style={{textAlign: "left"}}>
-
-						<div className="service_Image">
-
-                     <img  src="images/kitchenplumbing.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>
-
-						</div>
-
-						{/* <h6>01</h6> */}
-						<div className="icon_label">Kitchen Plumbing & Drainage</div>
-
-					</div>
-
-					<hr className="my-4"></hr>
-
-					<p>Behind every perfectly functioning kitchen lies a reliable, well-designed kitchen plumbing</p>
-
-					{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#403226"}}><img  src="images/arrow.png"/></span> */}
-
-				</div>
-
-			</div>
-
-			<div className="col-md-4 mb-4">
-
-				<div className="service_box pt-3 pb-4">
-
-					<div className="key_box2" style={{textAlign: "left"}}>
-
-						<div className="service_Image">
-
-                     <img  src="images/vent.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>
-
-						</div>
-
-						{/* <h6>01</h6> */}
-						<div className="icon_label">Ventilation & Hood Installation</div>
-
-					</div>
-
-					<hr className="my-4"></hr>
-
-					<p>A beautiful kitchen is only as good as the air you breathe in it</p>
-
-					{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#403226"}}><img  src="images/arrow.png"/></span> */}
-
-				</div>
-
-			</div>
-
-			<div className="col-md-4 mb-4">
-
-				<div className="service_box pt-3 pb-4">
-
-					<div className="key_box2" style={{textAlign: "left"}}>
-
-						<div className="service_Image">
-
-                      <img  src="images/Modular Kitchen Units.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>
-
-						</div>
-
-						{/* <h6>01</h6> */}
-						<div className="icon_label">Modular Kitchen Units</div>
-					</div>
-
-					<hr className="my-4"></hr>
-
-					<p>In today’s fast-paced world, kitchens need to do more than just look good</p>
-
-					{/* <span className="arrow_btn arrow_btn2" style={{backgroundColor: "#403226"}}><img  src="images/arrow.png"/></span> */}
-
-				</div>
-
-			</div>
 
 		</div>
 
