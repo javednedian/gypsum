@@ -278,7 +278,7 @@ export default function Home() {
 								<SwiperSlide>
 									<div className="item mb-4">
 
-										<Link href="/service/backsplash-tiling-here-style-meets-everyday-practicality">
+										<Link href="/service/gypsum-ceiling-works">
 
 										<div className="service_box pt-3 pb-4">
 
@@ -310,7 +310,7 @@ export default function Home() {
 								<SwiperSlide>
 									<div className="item mb-4">
 
-										<Link href="/service/kitchen-countertops-the-centerpiece-of-every-kitchen">
+										<Link href="/service/partition-and-drywall-installation">
 
 										<div className="service_box pt-3 pb-4">
 
@@ -343,7 +343,7 @@ export default function Home() {
 								<SwiperSlide>
 									<div className="item mb-4">
 
-										<Link href="/service/custom-kitchen-design-and-installation">
+										<Link href="/service/gypsum-wall-cladding-and-panelling">
 
 										<div className="service_box pt-3 pb-4">
 
@@ -375,7 +375,7 @@ export default function Home() {
 								<SwiperSlide>
 									<div className="item mb-4">
 
-										<Link href="/service/smart-kitchen-solutions">
+										<Link href="/service/cornices-mouldings-and-decorative-works">
 
 										<div className="service_box pt-3 pb-4">
 
@@ -407,7 +407,7 @@ export default function Home() {
 								<SwiperSlide>
 									<div className="item mb-4">
 
-										<Link href="/service/kitchen-appliance-installation-seamless-safe-and-professional">
+										<Link href="/service/gypsum-painting-and-finishing">
 
 										<div className="service_box pt-3 pb-4">
 
@@ -439,7 +439,7 @@ export default function Home() {
 								<SwiperSlide>
 									<div className="item mb-4">
 
-										<Link href="/service/cabinet-refacing-and-painting-a-fresh-look-without-the-full-renovation">
+										<Link href="/service/repairs-and-renovation">
 
 										<div className="service_box pt-3 pb-4">
 
@@ -471,7 +471,7 @@ export default function Home() {
 								<SwiperSlide>
 									<div className="item mb-4">
 
-										<Link href="/service/lighting-and-electrical-setup-illuminate-your-kitchen-elevate-your-experience">
+										<Link href="/service/turnkey-interior-gypsum-solutions">
 
 										<div className="service_box pt-3 pb-4">
 

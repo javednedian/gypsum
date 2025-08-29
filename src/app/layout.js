@@ -67,11 +67,8 @@ export default function RootLayout({ children }) {
                     <li><Link className="dropdown-item" href="/service/gypsum-wall-cladding-and-panelling">Gypsum Wall Cladding & Panelling</Link></li>
                     <li><Link className="dropdown-item" href="/service/cornices-mouldings-and-decorative-works">Cornices, Mouldings & Decorative Works</Link></li>
                     <li><Link className="dropdown-item" href="/service/gypsum-painting-and-finishing">Gypsum Painting & Finishing</Link></li>
-                    <li><Link className="dropdown-item" href="/service/cabinet-refacing-and-painting-a-fresh-look-without-the-full-renovation">Cabinet Refacing & Painting</Link></li>
-                    <li><Link className="dropdown-item" href="/service/lighting-and-electrical-setup-illuminate-your-kitchen-elevate-your-experience">Lighting & Electrical Setup</Link></li>
-                    <li><Link className="dropdown-item" href="/service/kitchen-plumbing-and-drainage-the-backbone-of-a-functional-kitchen">Kitchen Plumbing & Drainage</Link></li>
-                    <li><Link className="dropdown-item" href="/service/ventilation-and-hood-installation-breathe-easy-with-a-cleaner-healthier-kitchen">Ventilation & Hood Installation</Link></li>
-                    <li><Link className="dropdown-item" href="/service/modular-kitchen-units-flexible-functional-and-designed-for-modern-living">Modular Kitchen Units</Link></li>
+                    <li><Link className="dropdown-item" href="/service/repairs-and-renovation">Repairs & Renovation</Link></li>
+                    <li><Link className="dropdown-item" href="/service/turnkey-interior-gypsum-solutions">Turnkey Interior Gypsum Solutions</Link></li>
 
                     <li><Link className="dropdown-item" href="/services">All Services</Link></li>
                   </ul>
