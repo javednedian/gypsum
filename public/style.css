@@ -1,6 +1,6 @@
 
 
-service_img img { 
+service_img img {
     width: 100%;
     border-radius: 30px;
     margin-bottom: 20px;
@@ -64,7 +64,7 @@ footer{
 
 
 footer p{
-	
+
 	color: #f5f5f5 !important;
 	font-family: 'Outfit', sans-serif;
 	line-height: 30px;
@@ -72,7 +72,7 @@ footer p{
 }
 
 footer h6{
-	
+
 	font-family: 'Outfit', sans-serif;
 	line-height: 30px;
 	font-size: 18px;
@@ -93,7 +93,7 @@ footer ul{
 }
 
 .banner_sec{
-	background-image: url('images/bannerimg.jpg');
+	background-image: url('images/gypsum-5.jpg');
 	background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -106,7 +106,7 @@ footer ul{
 
 
 .bread_title{
-	background-image: url('images/kitchenbanner.jpg');
+	background-image: url('images/gypsum-main.webp');
 	background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -121,7 +121,7 @@ footer ul{
     padding: 12px 35px;
     font-family: 'Space Grotesk', sans-serif;
     border-radius: 30px;
-    color: #686868;	
+    color: #686868;
 	position: relative;
 }
 
@@ -262,7 +262,7 @@ footer ul{
 }
 
 .blog_item h5{
-	
+
     text-shadow: 0px 0px 5px #000000;
 }
 
@@ -313,7 +313,7 @@ footer ul{
 	color: #ffffff;
     border-width: 1px;
     opacity: 1;
-}	
+}
 
 .main_btn2{
 	background-color:#84ace5;
@@ -369,7 +369,7 @@ p{
 }
 
 .service_img img{
-	width: 100%; 
+	width: 100%;
     border-radius: 30px;
 	margin-bottom: 20px;
 }

@@ -163,7 +163,7 @@ export default function Home() {
 
 						<div className="col-md-6 my-auto">
 
-							<img src="/images/about2.jpg" className="w-100" style={{borderRadius: "30px" , height: "460px"}}/>
+							<img src="/images/gypsum-2.webp" className="w-100" style={{borderRadius: "30px" , height: "460px"}}/>
 
 						</div>
 
@@ -286,7 +286,7 @@ export default function Home() {
 
 												<div className="service_img">
 
-													<img src="/images/kitchenBacksplash.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>
+													<img src="/images/gypsum-6.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>
 
 												</div>
 
@@ -318,7 +318,7 @@ export default function Home() {
 
 												<div className="service_img">
 
-													<img src="/images/Countertops.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>
+													<img src="/images/gypsum-7.webp" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}}/>
 
 
 												</div>
@@ -351,7 +351,7 @@ export default function Home() {
 
 												<div className="service_img">
 
-											<img src="/images/custom.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}} />
+											<img src="/images/gypsum-3.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}} />
 												</div>
 
 												{/* <h6>03</h6> */}
@@ -383,7 +383,7 @@ export default function Home() {
 
 												<div className="service_img">
 
-											<img src="/images/smart.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}} />
+											<img src="/images/gypsum-8.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}} />
 												</div>
 
 												{/* <h6>04</h6> */}
@@ -415,7 +415,7 @@ export default function Home() {
 
 												<div className="service_img">
 
-											<img src="/images/appliances.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}} />
+											<img src="/images/gypsum-9.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}} />
 												</div>
 
 												{/* <h6>05</h6> */}
@@ -447,7 +447,7 @@ export default function Home() {
 
 												<div className="service_img">
 
-											<img src="/images/Cabinets.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}} />
+											<img src="/images/gypsum-10.jpg" style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}} />
 												</div>
 
 												{/* <h6>06</h6> */}
@@ -479,7 +479,7 @@ export default function Home() {
 
 												<div className="service_img">
 
-											<img src="/images/light.jpg"  style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}} />
+											<img src="/images/gypsum-11.jpg"  style={{ width: "100%" , borderRadius: "30px" , marginBottom: "20px" , height: "231px"}} />
 												</div>
 
 												{/* <h6>07</h6> */}
@@ -567,7 +567,7 @@ export default function Home() {
 
 						<div className="col-md-7 my-auto text-center">
 
-							<img src="/images/about3.jpg" className="w-100" style={{borderRadius: "30px" , height: "460px"}}/>
+							<img src="/images/gypsum-4.jpg" className="w-100" style={{borderRadius: "30px" , height: "460px"}}/>
 
 						</div>
 
